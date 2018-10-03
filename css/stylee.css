@@ -1,0 +1,107 @@
+body{
+background: url('../img/regal.png');
+font: 15px/1.5 Ariel, Helvetica, sans-serif;
+padding:0;
+margin:0;
+}
+
+/* Global */
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/*button*/
+.button_1{
+    height:38px;
+    background:#e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+    margin-left: 5px;
+}
+
+/*colour*/
+.colour{
+    padding:10px;
+    background:#e1f186;
+    color:#0f0a0a;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+/* Header */
+header{
+background:#183d68;
+color:#ffffff;
+padding-top: 5px;
+min-height: 70px;
+border-bottom:#1a1818 7px solid;
+}
+ header a{
+     color:#ffffff;
+     text-decoration:none;
+     text-transform:uppercase;
+     font-size: 15px;
+}
+
+header li{
+    float:right;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+        margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header a:hover{
+    color: #8bad10;
+    font-weight: bold;
+
+}
+
+#task{
+    padding:10px;
+    color:#ffffff;
+    background: #1a1818;
+}
+
+#task form{
+float:right;
+margin-top:15px;
+}
+#task input[type="text"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+
+/*sidebar*/
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top:10px;
+
+}
+
+aside#sidebar .register input{
+    width:90%;
+    padding:5px;
+
+
+}
+
